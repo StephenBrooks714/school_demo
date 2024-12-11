@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="your_url">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="title - about">
+    <meta property="og:url" content=your_url>
+    <meta property="og:site_name" content="company name">
+    <meta property="og:image" content="your_url">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:label1" content="Est. reading time">
+    <meta name="twitter:data1" content="2 minutes">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e6e21676c0.js" crossorigin="anonymous"></script>
+    <!-- styles -->
+    <link rel="stylesheet" href="./src/public/styles/main.css">
+</head>
+<body>
+<header class="about-bg">
+    <nav class="navbar fixed-top bg-light" id="navbar">
+        <ul class="nav-items" id="nav1">
+            <li class="nav-item">
+                <a href="https://cafecollege.org/events/" target="_blank" class="nav-link">Events</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link menu">About</a>
+                <ul class="submenu-1">
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#!">Our Team</a>
+                    </li>
+                    <li>
+                        <a href="#!">Our Board</a>
+                    </li>
+                    <li>
+                        <a href="#!">Our Partners</a>
+                    </li>
+                    <li>
+                        <a href="#!">Careers</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Involvement</a>
+                <ul class="submenu-2">
+                    <li>
+                        <a href="#!">High School-Based <br> Services</a>
+                    </li>
+                    <li>
+                        <a href="#!">SAEP Scholarship</a>
+                    </li>
+                    <li>
+                        <a href="#!">Scholar Success</a>
+                    </li>
+                    <li>
+                        <a href="https://cafecollege.org/" target="_blank">cafe' College</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#!">Admin Login</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav-items">
+            <li class="nav-logo">
+                <a href="index.html">
+                    <img src="./src/public/assets/full-logo.png" height="60" width="140" alt="logo">
+                </a>
+            </li>
+        </ul>
+        <ul class="nav-items">
+            <li class="nav-item item1">
+                <a href="https://www.betterunite.com/SanAntonioEducationPartnership-makeanimpactwithyourend-of-yeardonation" target="_blank" class="nav-link">Donate</a>
+            </li>
+            <li class="nav-form item1">
+                <form action="/search" method="post" enctype="multipart/form-data">
+                    <input type="search" name="searchTerm">
+                    <button>search</button>
+                </form>
+            </li>
+            <li class="dropdown">
+                <button class="dropbtn" onclick="showMenu()">menu</button>
+                <ul class="dropdown-items fadeInRight">
+                    <button class="btn" onclick="closeMenu()">X</button>
+                    <li class="dropdown-item">
+                        <a href="index.html">
+                            <img src="./src/public/assets/full-logo.png" height="60" width="120" alt="logo">
+                        </a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#!">Donate</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#!">Events</a>
+                        <ul class="inside-elements">
+                            <li>
+                                <a href="#!">Upcoming Events</a>
+                            </li>
+                            <li>
+                                <a href="#!">Current Events</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#!">About</a>
+                        <ul class="inside-elements">
+                            <li>
+                                <a href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#!">Our Team</a>
+                            </li>
+                            <li>
+                                <a href="#!">Our Board</a>
+                            </li>
+                            <li>
+                                <a href="#!">Our Partners</a>
+                            </li>
+                            <li>
+                                <a href="#!">Careers</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#!">Involvement</a>
+                        <ul class="inside-elements">
+                            <li>
+                                <a href="#!">High School-Based <br> Services</a>
+                            </li>
+                            <li>
+                                <a href="#!">SAEP Scholarship</a>
+                            </li>
+                            <li>
+                                <a href="#!">Scholar Success</a>
+                            </li>
+                            <li>
+                                <a href="https://cafecollege.org/" target="_blank">Cafe' College</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <hr>
+                    <li class="dropdown-item">
+                        <a href="/login">Login</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <div class="container mb-6">
+            <div class="row justify-content-center text-center align-items-center" style="height: 70vh;">
+                <div class="col-lg-10">
+                    <h1 class="display-2 fw-bold">About SAEP</h1>
+
+                    <a href="" class="btn-orange-gradient rounded-pill">Request Advising</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+
+<main>
+    <div class="container mt-5 mb-5">
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-12 mb-4">
+                <p class="lead mb-2">
+                    Offering Free College Advising
+                </p>
+                <h2 class="h1 fw-bold">Creating College Opportunities, Access, and Success</h2>
+                <p class="lead">
+                    Each year, SAEP awards $2.1 million in scholarships to about 3,000 local college students. Beyond financial assistance, scholarship recipients receive ongoing support toward college persistence and degree completion.
+                </p>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <p class="lead">
+                    Our services are aimed at helping students access and attend college, and successfully attain a degree or credential. These free services are available at local partner high schools and through cafécollege, a one-stop shop for all things college, centrally located in downtown San Antonio and supported by the City of San Antonio.
+                </p>
+                <p class="lead">
+                    San Antonio Education Partnership (SAEP) is committed to increasing educational attainment by providing college advising to youth and adults in their pursuit of higher education.
+                </p>
+                <p class="lead">
+                    We firmly believe that education serves as more than just a pathway to personal success—it acts as a catalyst for a brighter future for San Antonio.
+                </p>
+                <a href="#" class="button-secondary">Our Team</a> <a href="#" class="button-secondary">Our Board</a>
+                <a href="#" class="button-secondary">Our Partners</a>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="info-card bg-orange">
+                            <h3 class="card-header">Who we serve</h3>
+                            <ul class="card-body">
+                                <li>
+                                    63% Low to Moderate Household Income
+                                </li>
+                                <li>
+                                    73% First-generation College Goer
+                                </li>
+                                <li>
+                                    93% BIPOC (Black, Indigenous, People of Color)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <iframe width="100%" height="310px" src="https://www.youtube.com/embed/JUywr0mXhww" title="Meet Brenda, Ann, and Steve | SAEP Scholar Spotlight" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row flex-row-reverse mb-7">
+            <div class="col-lg-6">
+                <p class="h1 fw-bold">Financial Statements</p>
+                <p class="lead">
+                    At San Antonio Education Partnership, we are committed to transparency and accountability in all our financial practices. Our financial statements provide detailed information on our revenue sources, expenditures, and financial health. Every dollar is used effectively to support our mission of increasing educational attainment in San Antonio. We invite you to review our IRS Form 990 filings and audited financial statements to see how your support makes a difference.
+                </p>
+                <a href="./src/public/assets/SAEP-990-FY23_web.pdf" target="_blank" class="button-secondary">SAEP Partnership Form 990</a>
+                <a href="./src/public/assets/SAEP-Audit-FY23.pdf" target="_blank" class="button-secondary">Financial Audit</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="https://saedpartnership.org/wp-content/uploads/2024/07/SAEP-college-assistance.png" class="img-fluid" alt="financial audit">
+            </div>
+        </div>
+    </div>
+    <section class="about-banner">
+        <div class="container-fluid">
+            <p class="h2 fw-bold mb-3">
+                How We Operate In Our Values
+            </p>
+            <div class="row justify-content-center">
+                <div class="col-lg-2">
+                    <i class="fa-regular banner-icon fa-comments"></i>
+                    <p class="lead">Communication</p>
+                </div>
+                <div class="col-lg-2">
+                    <i class="fa-solid banner-icon fa-chess"></i>
+                    <p class="lead">Integrity</p>
+                </div>
+                <div class="col-lg-2">
+                    <i class="fa-regular banner-icon fa-thumbs-up"></i>
+                    <p class="lead">Excellence</p>
+                </div>
+                <div class="col-lg-2">
+                    <i class="fa-solid banner-icon fa-user-shield"></i>
+                    <p class="lead">Respect</p>
+                </div>
+                <div class="col-lg-2">
+                    <i class="fa-regular banner-icon fa-lightbulb"></i>
+                    <p class="lead">Innovation</p>
+                </div>
+                <div class="col-lg-2">
+                    <i class="fa-solid banner-icon fa-users"></i>
+                    <p class="lead">Team Work</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row justify-content-center mt-5 align-items-center">
+            <div class="col-lg-6">
+                <p>SINCE 1989</p>
+                <h4>Over 17,750 Degrees and Credentials Earned by SAEP Scholars</h4>
+                <p class="h3">College Opportunities</p>
+                <p>
+                    Ensuring every San Antonio community member has the opportunity to explore career interests and college paths, and receive the necessary support to achieve their goals.
+                </p>
+                <p class="h3">College Access</p>
+                <p>
+                    Making college accessible by offering support and scholarship awards to successfully enroll and attend college.
+                </p>
+                <p class="h3">College Success</p>
+                <p>
+                    Equipping college students with essential tools and support to persist and successfully graduate from college.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <h5 class="h2 fw-bold">Let's Get In Touch</h5>
+                <form action="">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" placeholder="First Name">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="tel" class="form-control" placeholder="Phone Number">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <textarea name="message" id="message" class="form-control" rows="7" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button type="submit" class="button-secondary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer-bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 mb-1">
+                <div class="row">
+                    <div class="col-6">
+                        <h6>Follow Us</h6>
+                    </div>
+                    <div class="col-6 text-end">
+                        <span style="text-decoration: none; margin-right: 9px;">
+                            <a href="https://www.linkedin.com/company/san-antonio-education-partnership" target="_blank" style="color: white;">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </span>
+                        <span style="text-decoration: none; margin-right: 9px;">
+                            <a href="https://www.facebook.com/SAEducationPartnership" target="_blank" style="color: white;">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </span>
+                        <span style="text-decoration: none; margin-right: 9px;">
+                            <a href="https://www.instagram.com/the_saep/" target="_blank" style="color: white;">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <hr style="width: 100%; height: 1px; color: white; margin-bottom: 30px;">
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <img src="https://saedpartnership.org/wp-content/uploads/2024/01/SAEP_BWLogo_HighRes-02-300x257.png"
+                     height="110px"
+                     width="190px"
+                     alt="logo"
+                >
+                <br>
+                <a href="https://www.guidestar.org/profile/74-2547643" target="_blank">
+                    <img src="https://saedpartnership.org/wp-content/uploads/2024/03/guidestar-white-logo-300x101.png"
+                         height="110px"
+                         width="190px"
+                         alt="guide star"
+                    >
+                </a>
+            </div>
+            <div class="col-lg-3">
+                <h6>Our Services</h6>
+                <p>
+                    <a href="">High School-Based Services</a>
+                </p>
+                <p>
+                    <a href="">SAEP Scholarship</a>
+                </p>
+                <p>
+                    <a href="">Scholar Success</a>
+                </p>
+                <p>
+                    <a href="https://cafecollege.org/" target="_blank">Cafe' College</a>
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <h6>Main Links</h6>
+                <p>
+                    <a href="">About Us</a>
+                </p>
+                <p>
+                    <a href="">Events Page</a>
+                </p>
+                <p>
+                    <a href="https://cafecollege.org/" target="_blank">Request Advising</a>
+                </p>
+                <p>
+                    <a href="">Opportunities</a>
+                </p>
+                <p>
+                    <a href="">Finance Statements</a>
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <h6>Connect</h6>
+                <p>
+                    Monday - Friday: 9am - 5pm <br>
+                    Saturday: 10am - 3pm <br>
+                    Sunday: Closed
+                </p>
+                <address>
+                    131 El Paso Street
+                    San Antonio, Texas 78204 <br>
+                    (210) 207-4766 <br>
+                    info@saedpartnership.org
+                </address>
+            </div>
+            <div class="col-lg-12 text-center">
+                <hr style="width: 100%; height: 1px; color: white; margin-bottom: 30px;">
+                <p>
+                    Created By
+                    <a href="https://expedientmarketing.org/"
+                       style="color: white;"
+                       target="_blank">
+                        Precision Impact
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="./src/public/js/main.js"></script>
+</body>
+</html>

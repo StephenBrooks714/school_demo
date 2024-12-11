@@ -1,0 +1,41 @@
+url:
+https://saedpartnership.org/
+
+colors: medium red, blood orange, white, black
+
+// google form
+<script async src="https://cse.google.com/cse.js?cx=471b790d9ac1c4711">
+                </script>
+                <div class="gcse-search"></div>
+
+                <div class="col-lg-6 mb-3">
+                                <img src="https://www.unlv.edu/sites/default/files/styles/1200_width/public/hero_video/image/D69431_32.jpg?itok=q16WhKJL"
+                                     class="img-fluid shadow-lg" alt="blog post title" />
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <h5 class="h2 fw-bold mb-2">Get Into School</h5>
+                                <p class="text-muted mb-2">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cumque, delectus dolore doloremque et inventore, itaque molestiae.
+                                </p>
+                                <script async src="https://cse.google.com/cse.js?cx=471b790d9ac1c4711">
+                                </script>
+                                <div class="gcse-search"></div>
+                                <ul class="group-list-items">
+                                    <li>
+                                        Locating a school near you
+                                    </li>
+                                    <li>
+                                        Helping with the application process
+                                    </li>
+                                    <li>
+                                        Discovering grants that may help
+                                    </li>
+                                    <li>
+                                        Acquiring at school services
+                                    </li>
+                                </ul>
+                                <small class="text-muted mb-1">
+                                    Our dedicated team is committed to providing you with the college resources and guidance you need to succeed in your educational journey.
+                                </small>
+                                <a href="https://cafecollege.org/" target="_blank" class="button-secondary">Find A School</a>
+                            </div>
